@@ -121,3 +121,137 @@ section#home {
         transform: translateY(-30px);
     }
 }
+
+section#projects {
+    height: calc(100vh + 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.project-img {
+    width: 50%;
+}
+
+.project-img img {
+    box-shadow: 0 1px 2px #0003;
+    object-fit: cover;
+    width: 80%;
+}
+
+.project-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.swiper {
+    width: 95vw;
+    height: 500px;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #7700ff;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #7700ff;
+}
+
+/* CONTACT */
+
+#contact {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+input, textarea, button {
+    box-shadow: 0 1px 2px #ddd;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+#contact form button {
+    background-color: #7700ff;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#contact form button:hover {
+    opacity: 1;
+}
+
+/* FOOTER */
+
+footer {
+    box-shadow: 0 -1px 0 0 #ececec;
+    padding: 50px;
+    text-align: center;
+}
+
+/* MOBILE */
+
+@media (max-width: 450px) {
+    header {
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    section#home {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .home-info, .home-img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .swiper-slide {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-info {
+        width: 80%;
+    }
+}
