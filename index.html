@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>Site Portfólio</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                LOGO
+            </div>
+
+            <div class="menu">
+                <nav class="nav-list">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- HOME -->
+
+        <section id="home">
+            <div class="home-info">
+                <h2>Olá, sou William</h2>
+                <span class="home-position">Programador Full Stack</span>
+                <span class="home-resume">
+                    Graduado em Sistemas de Informação, tenho experiência em desenvolviemnto Web (React, Asp, JS e outros), mobile e criação de conteúdo
+                </span>
+
+                <button>
+                    <a href="#" target="_blank">Contate-Me</a>
+                </button>
+            </div>
+
+            <div class="home-img">
+                <img src="./img/xavatar.png" alt="Foto de Perfil">
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="./img/site.png" alt="Foto de um site">
+                        </div>
+
+                        <div class="project-info">
+                            <h2>Websites Modernos</h2>
+                            <p>Criação de Websites modernos e responsivos para qualquer dispositivo.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="./img/shop.png" alt="Foto de uma loja online">
+                        </div>
+
+                        <div class="project-info">
+                            <h2>E-commerce</h2>
+                            <p>Criação de lojas online de qualquer produto.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="./img/sistema.png" alt="Foto de um sistema">
+                        </div>
+
+                        <div class="project-info">
+                            <h2>Sistemas Completos</h2>
+                            <p>Criação de sistemas completos desde o Back-End até o Front-End.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
