@@ -76,6 +76,11 @@ a {
     cursor: pointer;
     text-decoration: none;
     color: black;
+    transition: all 250ms ease-in-out;
+}
+
+a:hover {
+    color: var(--secondary-color);
 }
 
 section#home {
@@ -161,12 +166,14 @@ section#education {
     align-items: center ;
     justify-content: center;
     height: calc(100vh + 80px);
+    gap: 30px;
 }
 
 .education-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .education-description {
