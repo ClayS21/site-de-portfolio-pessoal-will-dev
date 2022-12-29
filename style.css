@@ -140,7 +140,7 @@ section#home {
     align-items: center;
     flex-wrap: wrap;
     padding: 15px;
-    height: 100vh;
+    height: 80vh;
 
 }
 
@@ -153,7 +153,26 @@ section#skills > h2 {
     text-align: center;
 }
 
+section#education {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center ;
+    justify-content: center;
+    height: calc(100vh + 80px);
+}
 
+.education-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-description {
+    display: flex;
+    flex-direction: column;
+}
 section#projects {
     height: calc(100vh + 80px);
     width: 100%;
