@@ -100,7 +100,7 @@ section#home {
     text-align: justify;
 }
 
-.home-info button {
+button {
     border: none;
     width: 150px;
     padding: 10px;
@@ -113,11 +113,11 @@ section#home {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0);
 }
 
-.home-info button a {
+button a {
     color: white;
 }
 
-.home-info button:hover {
+button:hover {
     background-color: var(--secondary-color);
     box-shadow: 0 0 25px var(--primary-color);
 }
@@ -282,18 +282,6 @@ input, textarea, button {
     border-radius: 5px;
     outline: none;
     resize: none;
-}
-
-#contact form button {
-    background-color: #7700ff;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    opacity: 0.9;
-}
-
-#contact form button:hover {
-    opacity: 1;
 }
 
 /* FOOTER */
