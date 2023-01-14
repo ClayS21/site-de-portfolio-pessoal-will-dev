@@ -153,11 +153,19 @@ section#home {
 }
 
 section#skills > div {
-    border: 1px dashed gray;
+    transition: all 250ms ease-in-out;
+}
+
+section#skills > div:hover {
+    transform: scale(1.2);
 }
 
 section#skills > h2 {
     width: 100%;
+    text-align: center;
+}
+
+section#skills p {
     text-align: center;
 }
 
@@ -230,6 +238,20 @@ section#projects {
 
 .swiper-pagination-bullet-active {
     background-color: #7700ff;
+}
+
+/* LANGUAGES */
+
+section#languages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section#languages h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 90px;
 }
 
 /* CONTACT */
