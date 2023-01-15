@@ -260,32 +260,30 @@ section#languages h2 {
 
 /* CONTACT */
 
-#contact {
-    height: 80vh;
-    width: 100%;
+section#contact {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    align-items: center;
+    align-content: center;
+    margin: 100px;
+    gap: 100px;
 }
 
-#contact form {
+.redes {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    width: 100%;
-    padding: 5px 20px;
+    gap: 100px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-input, textarea, button {
-    box-shadow: 0 1px 2px #ddd;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    outline: none;
-    resize: none;
+.redes p {
+    text-align: center;
+}
+
+.redes img {
+    height: 50px;
 }
 
 /* FOOTER */
